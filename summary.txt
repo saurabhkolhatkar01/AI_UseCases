@@ -1,0 +1,46 @@
+Hi Team,
+
+Thank you everyone for the valuable discussion and feedback on the proposed AI-Driven Operational Intelligence & Monitoring solution for DMO.
+
+Below is the summary of key discussion points and agreed next steps:
+
+• The proposed solution will enhance the existing DMO ecosystem without replacing current monitoring tools, alerts, workflows, or integrations.
+
+• Existing operational data sources including Azure Monitor, Log Analytics, alerts, pipeline metadata, SLA information, run history, dependency mappings, and operational documents will be leveraged as inputs for AI-driven insights.
+
+• The proposed approach includes implementing a RAG-based knowledge retrieval layer using Azure Functions/Logic Apps, Python-based document processing, embeddings, Azure AI Search, and Meta IQ integration.
+
+• Feedback was received to keep the initial POC focused and manageable by starting with selected pipelines/use cases and following an MVP-based implementation approach.
+
+• Additional technical detailing is required for:
+
+* SLA early warning implementation
+* Real-time vs scheduled monitoring strategy
+* Integration/data flow design
+* Cost estimation
+* Governance and compliance considerations
+
+• It was recommended to:
+
+* Change “Benefits” to “Expected Benefits”
+* Reduce overcommitment during the POC stage
+* Focus on 3–4 measurable and achievable outcomes
+
+• Additional guidance was provided to:
+
+* Include Microsoft official documentation within the knowledge repository strategy
+* Ensure architecture and messaging consistency across teams
+* Coordinate with global stakeholders for alignment and scalability considerations
+
+Next Steps:
+
+* Consolidate all feedback into the proposal and presentation
+* Refine POC scope and prioritization
+* Prepare detailed implementation and governance inputs
+* Estimate infrastructure and operational costs
+* Schedule follow-up technical deep-dive discussions
+
+Thank you again for all the inputs and support. I will consolidate the feedback and continue refining the proposal accordingly.
+
+Regards,
+Sourav
