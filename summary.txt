@@ -44,3 +44,32 @@ Thank you again for all the inputs and support. I will consolidate the feedback 
 
 Regards,
 Sourav
+
+
+| Category             | Actionable Feedback                                                               | Expected Action                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Architecture         | Keep the AI solution as an enhancement layer on top of the existing DMO ecosystem | Do not replace existing monitoring tools, alerts, workflows, or integrations                      |
+| Architecture         | Provide deeper technical implementation details                                   | Prepare detailed architecture, integration flow, and component-level design                       |
+| Architecture         | Clearly define AI integration approach with Meta IQ                               | Document end-to-end data flow between monitoring systems, RAG layer, Azure AI Search, and Meta IQ |
+| Architecture         | Ensure architecture consistency across teams                                      | Standardize architecture narrative, tooling references, and integration descriptions              |
+| Knowledge Repository | Existing operational documents should be integrated into AI knowledge retrieval   | Build RAG-based knowledge ingestion pipeline                                                      |
+| Knowledge Repository | Include Microsoft official documentation for error messages and recovery guidance | Add Microsoft docs as trusted external knowledge sources in RAG repository                        |
+| POC Scope            | Keep the POC focused and manageable                                               | Limit initial implementation to selected pipelines/use cases                                      |
+| POC Scope            | Avoid trying to cover all capabilities in Phase 1                                 | Prioritize high-value operational use cases only                                                  |
+| POC Scope            | Follow MVP approach                                                               | Deliver a small but impactful implementation first                                                |
+| SLA Prediction       | Provide more detailed implementation logic for SLA early warning capability       | Prepare technical design for predictive analytics and risk scoring                                |
+| Monitoring Strategy  | Real-time monitoring feasibility needs evaluation                                 | Decide between real-time vs scheduled AI processing                                               |
+| Monitoring Strategy  | Assess operational scalability                                                    | Define monitoring frequency, ingestion strategy, and alert processing approach                    |
+| Cost                 | Prepare detailed Azure cost estimation                                            | Estimate AI Search, Functions, LLM, storage, monitoring, and runtime costs                        |
+| Cost                 | Define POC resource requirements                                                  | Estimate required team size, effort, and operational ownership                                    |
+| Governance           | Prepare for detailed governance questionnaires                                    | Document input/output data, integrations, architecture, and operational flow                      |
+| Governance           | Clarify PII and compliance considerations                                         | Identify whether PII/sensitive operational data is involved                                       |
+| Governance           | Maintain uniform messaging across stakeholders and teams                          | Ensure consistent documentation and presentation across reviews                                   |
+| Benefits             | Change “Benefits” to “Expected Benefits”                                          | Use realistic and non-committal wording                                                           |
+| Benefits             | Reduce overpromising during POC phase                                             | Focus only on achievable outcomes                                                                 |
+| Benefits             | Limit outcome statements to 3–4 high-value items                                  | Simplify presentation messaging                                                                   |
+| Enterprise Alignment | Coordinate with global teams working on similar initiatives                       | Engage stakeholders and validate overlap with Databricks/global initiatives                       |
+| Enterprise Alignment | Ensure future scalability and reusability                                         | Design solution that can extend to other regions/platforms                                        |
+| Execution            | Focus on implementation usefulness over broad scope                               | Ensure delivered POC provides measurable operational value                                        |
+| Execution            | Consolidate all feedback before submission                                        | Update proposal, architecture, and presentation accordingly                                       |
+| Planning             | Conduct additional technical deep-dive discussions                                | Schedule follow-up sessions for implementation planning                                           |
